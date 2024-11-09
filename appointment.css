@@ -91,6 +91,9 @@ h3{
     font-size: 30px;
     border-bottom: 3px solid;
     border-right: 5px solid;
+    word-wrap: break-word;
+    word-break: break-word;
+    
 }
 p{
     color: black;
