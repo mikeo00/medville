@@ -64,7 +64,8 @@ button{
     padding: 20px;
     margin: 20px;
     width: 50%;
-    overflow: auto;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 button a{
     text-decoration: none;
