@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+nav {
+    height: 80px; 
+    background-color: rgb(123, 100, 127);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0rem 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 1.5rem;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+nav a:active {
+    color: lightslategrey;
+
+}
+.head {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #ccc;
+    padding: 20px;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.booking input, .booking textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.booking label {
+    width: 100%;
+    max-width: 500px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+p, .gender-options, .problem-options {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 15px 0 5px;
+}
+
+.gender-options label,
+.problem-options label {
+    display: inline-block;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.other {
+    height: 100px;
+}
+
+.submit, .reset {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 150ms ease;
+}
+
+.submit:hover, .reset:hover {
+    background-color: #e4d4eb;
+    color: #343a40;
+}
+
+  .footer{
+    display:flex ;
+    flex-direction: column;
+    float: center;
+    align-items: left;
+    padding: 10px;
+    background-color: rgb(123, 100, 127);
+    border-top: 5px solid black;
+    
+}
+.foot-items a {
+    display:flex ;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.foot-items a:hover {
+    color: white;
+}
+
+.foot-items a:active {
+    color: lightslategrey;
+
+}
+.socials{
+    display:flex ;
+    flex-direction: column;
+    align-items: left;
+}
+.socialsh{
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.socials-icons{
+    display:flex ;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+
+}
+.copyright, .authors{
+    display:flex ;
+    flex-direction: column;
+    font-size: 16px;
+    color: grey;
+    text-align: left;
+    background-color: rgb(123, 100, 127);
+    padding-left: 5px;
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center; 
+        padding: 10px;
+        height: fit-content;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 1rem;
+        text-align: center; 
+    }
+    .head {
+        font-size: 1.5em;
+    }
+
+    .booking {
+        padding: 15px;
+    }
+
+    .submit, .reset {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    p, .gender-options, .problem-options {
+        font-size: 1.1em;
+    }
+
+}
