@@ -369,15 +369,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
-    .wel {
-        font-size: 30px; 
-        padding: 100px 20px; 
+    .wel{
+        text-align: center;
+        font-size: 30px;
+        padding: 150px;
+        color:rgb(0, 0, 0) ;
+    
     }
-
-    .welcome {
-        height: 300px; 
-    }
-}
 
     .hero-cont {
         grid-template-columns: 1fr;
@@ -434,18 +432,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
-    .welcome{
-        text-align:center;
+    .wel{
+        text-align: center;
+        font-size: 30px;
+        padding: 150px;
+        color:rgb(0, 0, 0) ;
+    
     }
-    .wel {
-        font-size: 30px; 
-        padding: 100px 20px; 
-    }
-
-    .welcome {
-        height: 300px; 
-    }
-}
 
     .hero-image {
      display: none;
