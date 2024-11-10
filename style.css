@@ -387,6 +387,9 @@ button:active {
         background-size: 400px;
         background-color: transparent;
     }
+    .hero-image{
+        display:none;
+    }
 
     .column-left h1 {
         font-size: 2rem;
