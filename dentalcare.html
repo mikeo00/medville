@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedVille center</title>
+    <link rel="stylesheet" href="eyecare.css">
+    <link rel="icon" type="image/png" href="medvillelogo.png">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="medvillelogo.png" alt="logo" class="logo-image"></div>
+
+        <div class="nav-items"></div>
+            <a href="index.html">Home </a>
+            <a href="blog.html">blog  </a>
+            <a href="about.html">About  </a>
+            <a href="contact.html">Contact  </a>
+          
+        </div>
+    </nav>
+    <h1 class="head">Fill out your information to complete the appointment booking</h1>
+    <div class="booking">
+        <label for="full-name">Enter your full name:</label>
+        <input type="text" id="full-name" class="full-name" placeholder="Full name" required>
+    
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" class="email" placeholder="email@gmail.com" required>
+    
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" class="number" placeholder="00/000000" required>
+    
+        <p>Gender:</p>
+        <div class="gender-options">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </div>
+    
+        <label for="datebirth">Enter your date of birth:</label>
+        <input type="date" id="datebirth" class="datebirth" required>
+    
+        <p>What is your problem:</p>
+        <div class="problem-options">
+            <label><input type="radio" class="problem" name="problem" value="vision"> teeth pain</label>
+            <label><input type="radio" class="problem" name="problem" value="checkup"> Check-up or cleaning</label>
+            <label><input type="radio" class="problem" name="problem" value="injury"> teeth and jaw alignment </label>
+            <label><input type="radio" class="problem" name="problem" value="other"> Other</label>
+        </div>
+    
+        <label for="other-problem">If you chose "other," tell us what problem you are facing:</label>
+        <textarea id="other-problem" placeholder="Your problem" class="other" rows="4"></textarea>
+    
+        <label for="appointment">Appointment date available:</label>
+        <input type="date" id="appointment" class="appointment" required>
+    
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Clear</button>
+    </div>
+    
+    <div class="footer">
+        <div class="foot-items">
+        <a href="index.html">Home </a>
+        <a href="blog.html">blog  </a>
+        <a href="about.html">About  </a>
+        <a href="contact.html">Contact  </a>
+      
+    </div>
+    <div class="socials">
+        <h4 class="socialsh">follow us</h4>
+        <a href="#"><img src="instagram.png" alt="instagram" class="socials-icons"> </a>
+        <a href="#"> <img src="facebook.png" alt="instagram" class="socials-icons">  </a></div>
+
+    </div class="end">
+    <div>
+    <p class="copyright">2024 medville | all rights reserved</p>
+    <p class="authors">made by MIchael Osta and Adam Saraya</p>
+
+
+    </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
