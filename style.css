@@ -369,10 +369,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
+    .welcome{
+        text-align:center;
+    }
     .wel{
         text-align: center;
         font-size: 30px;
-        padding: 50%;
+        padding-right: 300px ;
         color:rgb(0, 0, 0) ;
     
     }
@@ -432,10 +435,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
+    .welcome{
+        text-align:center;
+    }
     .wel{
         text-align: center;
         font-size: 30px;
-        padding: 50%;
+        padding-right: 300px ;
         color:rgb(0, 0, 0) ;
     
     }
