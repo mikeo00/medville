@@ -369,12 +369,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
-    .wel{
-        text-align: center;
-        font-size: 30px;
-        padding: 150px;
-        color:rgb(0, 0, 0) ;
-    
+    .wel {
+        font-size: 24px;
+        padding: 80px 15px;
+    }
+
+    .welcome {
+        height: 250px;
     }
 
     .hero-cont {
@@ -422,7 +423,7 @@ button:active {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     nav {
         flex-direction: column;
         align-items: center; 
@@ -435,12 +436,13 @@ button:active {
         font-size: 1rem;
         text-align: center; 
     }
-    .wel{
-        text-align: center;
-        font-size: 30px;
-        padding: 150px;
-        color:rgb(0, 0, 0) ;
-    
+    .wel {
+        font-size: 24px;
+        padding: 80px 15px;
+    }
+
+    .welcome {
+        height: 250px;
     }
 
     .hero-image {
