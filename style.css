@@ -59,7 +59,9 @@ nav a:active {
 }
 .hero {
     background-color: white;
-
+    background-image: url("Medical_Website_Builders_Feature-0001.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .hero-cont {
@@ -373,7 +375,9 @@ button:active {
         font-size: 24px;
         padding: 80px 15px;
     }
-
+    .hero{
+        background-image: none;
+    }
     .welcome {
         height: 250px;
     }
